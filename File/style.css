@@ -1,0 +1,475 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+body {
+    background-color: rgb(1, 8, 43);
+    width: 100%;
+    height: auto;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+
+.logo img {
+    width: 30px;
+    height: auto;
+    margin-left: 12%;
+    margin-top: 3px;
+}
+
+.headerLink {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    justify-content: right;
+}
+
+.headerLink a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.headerLink a:hover {
+    color: #ff9900;
+}
+
+.on-off i {
+    color: #ff9900;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* ####################################### */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    color: white;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contentleft {
+
+    margin-top: -80px;
+    max-width: 50%;
+    margin-left: 50px;
+}
+
+.contentleft h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.contentleft h1 {
+    text-align: justify;
+    font-size: 30px;
+    font-weight: 500;
+    color: orange;
+}
+
+.contentleft h3 {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 500;
+    color: orange;
+    margin-top: -5px;
+    padding-bottom: 20px;
+
+}
+
+.contentleft p {
+    text-align: justify;
+
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.contentleft p span {
+    color: orange;
+    font-weight: 600;
+}
+
+.btn-box {
+    margin-top: 20px;
+}
+
+.btn-box a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: orange;
+    color: black;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.btn-box .btn-cv {
+    font-weight: 100;
+    background-color: transparent;
+    border: none;
+    color: orange;
+    outline: none;
+    cursor: pointer;
+}
+
+.image img {
+
+    display: flex;
+    float: right;
+    max-width: 90%;
+    height: auto;
+}
+
+/* ############################# */
+
+
+
+.LeftBox {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+}
+
+.years {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+
+.years h3 {
+    color: yellow;
+    font-size: 20px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.content-right {
+    text-align: justify;
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    color: lightgray;
+}
+
+.content-right h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.content-right p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.75;
+    text-align: justify;
+}
+
+span {
+    font-weight: bold;
+}
+
+.help {
+    padding: 25px;
+    margin-top: 70px;
+}
+
+.help,
+.developer {
+    color: #fff;
+    font-size: 20px;
+}
+
+.help,
+h1,
+p {
+    text-align: center;
+}
+
+/* ################################# */
+
+.threeBox {
+    height: auto;
+    max-width: 100%;
+    margin: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+
+}
+
+.box1 {
+    height: auto;
+    line-height: 1.25;
+    background-color: rgba(255, 255, 255, 0.1);
+    flex: 1;
+    text-align: justify;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+
+
+}
+
+.threeBox:hover .box1 {
+    border: 2px solid orange;
+}
+
+.box1 h2 {
+
+    text-align: right;
+    color: #ff9900;
+}
+
+.box1 h3 {
+    margin-bottom: 2px;
+    color: rgba(82, 67, 67, 0.75);
+    font-size: 15px;
+}
+
+.box1 p {
+    margin: 10px;
+    text-align: left;
+}
+
+
+
+/* ########################################### */
+
+.threedetail {
+    height: auto;
+    max-width: 100%;
+    margin: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+
+
+.detail1 {
+    height: auto;
+    line-height: 1.27;
+    background-color: rgba(255, 255, 255, 0.1);
+    flex: 1;
+    text-align: justify;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.detail1 p {
+    color: #ff9900;
+}
+
+
+.detail1 h1 {
+    color: rgba(101, 79, 79, 1);
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.detail1 h3 {
+
+    font-size: 13px;
+    text-align: center;
+}
+
+
+.threedetail img {
+    margin: 10px;
+    position: relative;
+    left: 27%;
+    border-radius: 50%;
+}
+
+/* ########################################## */
+
+.ProjectContainer {
+    line-height: 1.25;
+    width: 100%;
+    margin: 80px 30px 80px;
+    justify-content: center;
+    text-align: center;
+}
+
+.ProjectContainer h1 {
+    color: white;
+
+    font-weight: 300px;
+    font-size: 30px;
+}
+
+.ProjectContainer p {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: rgba(163, 153, 153, 1);
+    font-weight: 500px;
+
+}
+
+.ProjectContainer span {
+    color: #ff9900;
+}
+
+
+/* ################################################# */
+
+.portfolio {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.card {
+    height: auto;
+    background: #13152a;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-header {
+
+    line-height: 1.5;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.card-header h3 {
+    color: white;
+    font-weight: 200px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.card-header p {
+    text-align: left;
+    font-size: 14px;
+    color: white;
+}
+
+.card-header a {
+    position: relative;
+    left: 200px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.card-header a:hover {
+    color: #ffcc00;
+}
+
+
+.card-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* ####################################### */
+.HireMe {
+
+    height: auto;
+
+
+    line-height: 1.27;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    margin: 90px;
+    padding: 20px 150px 20px;
+    border-radius: 20px;
+}
+
+.HireMe p {
+    margin-bottom: 15px;
+    color: #ff9900;
+}
+
+.HireMe a {
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    height: 20px;
+    margin: 40px;
+    background-color: #ff9900;
+    color: white;
+}
+
+/* ############################### */
+/* Footer Styling */
+.footer {
+    background-color: #0a0e25;
+    /* Dark background */
+    color: #ff9900;
+    /* Orange text */
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Heart Color */
+.heart {
+    color: #ff9900;
+}
+
+/* Social Media Icons */
+.social-icons {
+    margin-top: 10px;
+}
+
+.icon {
+    display: inline-block;
+    font-size: 24px;
+    margin: 0 10px;
+    color: #ff9900;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Hover Effect */
+.icon:hover {
+    color: #ffffff;
+    /* White on hover */
+}
